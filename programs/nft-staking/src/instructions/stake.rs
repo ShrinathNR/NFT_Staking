@@ -58,6 +58,7 @@ pub struct Stake<'info> {
     pub stake_account: Account<'info, StakeAccount>,
     pub system_program: Program<'info, System>,
     pub token_program: Program<'info, Token>,
+    pub associated_token: Program<'info, AssociatedToken>,
     pub metadata_program: Program<'info, Metadata>,
 }
 
